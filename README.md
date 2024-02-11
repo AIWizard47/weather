@@ -6,9 +6,9 @@
 This is a Django weather project named 'Weather Blog' that provides a platform for users to view weather forecasts for cities around the world. It features a user-friendly interface and intuitive navigation, making it easy for users to check the weather in different locations.
 
 You can use this link to view weather forecasts for various cities:
-
+```
 'your_localhost'/weather/city_name
-
+```
 ## Requirements
 
 Before you begin the installation process, ensure that you have the following requirements:
@@ -24,9 +24,9 @@ Before you begin the installation process, ensure that you have the following re
 To install the 'Weather Blog' project on your PC, follow these steps:
 
 1. **Clone the Git Repository:**
-
-﻿
-git clone https://github.com/AIWizard47/weather.git﻿
+```
+git clone https://github.com/AIWizard47/weather.git
+```
 
 2. **Create a Virtual Environment:**
 
@@ -36,15 +36,13 @@ python -m venv venv
 source venv/bin/activate # On Windows, use 'venv\Scripts\activate'﻿
 
 3. **Activate the Virtual Environment:**
-
-﻿
+```
 source venv/bin/activate # On Windows, use 'venv\Scripts\activate'﻿
-
+```
 4. **Install Dependencies:**
-
-﻿
+```
 pip install -r requirements.txt﻿
-
+```
 5. **Configure Database Connection:**
 
 - Open the `settings.py` file in the project's directory.
@@ -60,11 +58,10 @@ pip install -r requirements.txt﻿
 python manage.py migrate﻿
 
 8. **Start the Server:**
-
-﻿
+```
 python manage.py createsuperuser
 python manage.py runserver﻿
-
+```
 9. **Visit the Weather Blog:**
 
 Open your web browser and navigate to http://127.0.0.1:8000 to access the weather blog's homepage. You can now start viewing weather forecasts for various cities.
